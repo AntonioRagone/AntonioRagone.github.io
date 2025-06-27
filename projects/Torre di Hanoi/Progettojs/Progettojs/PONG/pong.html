@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gioca a Pong</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            position: fixed;
+            width: 100%;
+            background-color: #5e35b1; 
+            margin: 0;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        canvas {
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Gioca a Pong</h1>
+    <canvas></canvas>
+    <audio id="playerHitSound" src="sound/18782.mp3"></audio>
+    <audio id="aiHitSound" src="sound/18782.mp3"></audio>
+    <audio id="wallHitSound" src="sound/Collisione.mp3"></audio>
+    <audio id="roundPassedSound" src="sound/Round.mp3z"></audio>
+    <audio id="playerWinSound" src="sound/Vittoria.mp3"></audio>
+    <audio id="playerLoseSound" src="sound/Sconfitta.mp3"></audio>
+    <script src="./script.js"></script>
+    <script src="background.js"></script>
+</body>
+
+</html>
