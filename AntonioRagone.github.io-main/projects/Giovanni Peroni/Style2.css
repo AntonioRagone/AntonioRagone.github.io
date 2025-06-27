@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://i0.wp.com/lilimadeleine.com/wp-content/uploads/2021/05/birra-peroni.jpg?resize=770%2C424&ssl=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+html{
+    text-align: center;
+    text-align: justify;
+}
+
+table, th, td{
+    margin: 2rem auto;
+    width: 400px;
+	border:1px solid black;
+    text-align: center;
+    margin-top: 10%;
+}
+
+th, td{
+    border-collapse: separate;
+    background-color: white;
+	width: 20px;
+	height: 20px
+    
+}
+
+table{
+    background-color: red;
+}
